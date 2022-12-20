@@ -1,16 +1,16 @@
 var organisationConfig = {
-    nl_organisationName: "Logius",
+  nl_organisationName: "Logius",
   nl_organisationStylesURL:
     "https://publicatie.centrumvoorstandaarden.nl/respec/style/",
   nl_organisationPublishURL: "https://publicatie.centrumvoorstandaarden.nl/",
-  nl_logo: {
+  logos: [{
     src: "https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/figure-logius.svg",
     alt: "Logius",
     id: "Logius",
     height: 77,
     width: 44,
     url: "https://www.logius.nl/standaarden",
-  },
+  }],
   // preProcess: [mdAddFigure],
 
   localizationStrings: {
